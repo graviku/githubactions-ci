@@ -21,6 +21,7 @@ jobs:
           args:
             -Dsonar.projectKey=graviku_githubactions-ci
             -Dsonar.organization=graviku
+            -Dsonar.qualitygate.wait=true
 
   build_test:
     needs: StaticAnalysis
