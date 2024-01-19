@@ -1,6 +1,5 @@
 name: Complete CI workflow
 
-
 on:
   push:
     branches: ["main"]
